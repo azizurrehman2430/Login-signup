@@ -1,0 +1,138 @@
+*{
+    font-family:'Poppins',sans-serif;
+}
+body{
+    background: url('1.jpg') no-repeat center/cover;
+    background-attachment: fixed;
+}
+.box{
+    display: flex;
+    /* justify-content: center; */
+    padding-left: 170px;
+    padding-top: 55px;
+    align-items: center;
+    min-height: 60vh;
+}
+.containor{
+    display: flex;
+    margin-top: 80px;
+    margin-left: -98px;
+    width: 350px;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+ .topheader{
+    display: flex;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    justify-content: center;
+    padding: 10px 10px;
+    }
+
+    .Name-field{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 9px;
+        height: 53px;
+        width: 372px;
+    }
+
+    .Name-field input::placeholder{
+        color: white;
+    }
+    
+    .input-field{
+        flex-direction: row;
+        padding: 4px;
+        display:block;
+        color: white;
+    }
+
+    .input-field input::placeholder{
+        color: white;
+    }
+
+    .input{
+        margin:10px ;
+        height: 45px;
+        width: 90%;
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        padding: 0 0 0 45px;
+        color: white;
+        background: rgba(85, 202, 206, 0.3);
+    }
+   
+    .pass a{
+        color: white;
+    }
+
+    .check{
+        /* margin-top: 4px; */
+        margin-left: 24px;
+        color:white;
+        font-size: large;
+        font-weight: 100;
+        /* margin-right: 70px; */
+    }
+    .check label a{
+    color: white;
+    }
+    .check a{
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+        font-weight: 100;
+        margin-left: 98px;
+    }
+
+    .check a:hover{
+        text-decoration: underline;
+        color: red;
+    }
+
+
+    .button{
+        margin-top: 20px;
+        margin-left: 12px;
+        padding-left: 4px;
+        margin-right: 60px;
+        justify-content: center;
+        height: 36px;
+        width: 279px;
+        /* color: rgba(191, 201, 202, 0.3); */
+        /* background-color:  rgba(85, 202, 206, 0.3); */
+        border: none;
+        margin-left: 34px;
+        border-radius: 119px;
+        font-size: large;
+        cursor: pointer;
+    }
+
+    .button:hover{
+        color: rgb(245, 242, 242);
+        background-color: rgb(5, 5, 5);
+    }
+
+    .link p{
+        margin-left: 52px;
+        color: white;
+    }
+
+    .link p a{
+        margin-left: 7px;
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .link p a:hover{
+        text-decoration: underline;
+        color: red;
+    }
+
+    .massj{
+        justify-content: center;
+    }
